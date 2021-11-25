@@ -31,7 +31,7 @@ class Routes {
   static const String ADD = '/add';
 
 }
-final routes ={
+final routes = {
   Routes.HOME:(context) => SplashScreen(),
   Routes.HOMEPAGE:(context) => HomeScreen(),
   Routes.DOWNLOAD:(context) => DownloadPage(),

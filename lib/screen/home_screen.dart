@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List _screens=[ProductPicture(),ProductPage(),Text(''),Text(''),LoginSignupPage(),];
 
 
-  void _updateIndex(int value) {
+  void _updateIndex(int  value) {
     setState(() {
       _currentIndex = value;
     });
