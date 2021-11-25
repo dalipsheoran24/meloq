@@ -5,7 +5,7 @@ import 'package:meloq/screen/splace_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'src/my_app.dart';
 SharedPreferences ?pref;
-Future<void> main() async {
+Future<void>  main() async {
   pref = await SharedPreferences.getInstance();
   runApp(MyApp());
 }
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(debugShowCheckedModeBanner: false,
       home: SplashScreen(),
       initialRoute: Routes.HOME,
-      routes: routes,
+      routes:  routes,
     );
   }
 }
