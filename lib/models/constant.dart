@@ -19,7 +19,7 @@ class Constant{
         ),
         Align(alignment: Alignment.centerLeft,
           child: Container(
-            height: 400,
+             height: 400,
             width: 150,
             decoration: BoxDecoration(
               color: Colors.blueGrey[50],
